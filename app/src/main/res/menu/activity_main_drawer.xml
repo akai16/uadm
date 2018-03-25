@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="@string/gifs">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_daniel"
+                    android:title="@string/daniel_furlan" />
+                <item
+                    android:id="@+id/nav_vice_consul"
+                    android:title="@string/vice_consul_de_honduras" />
+                <item
+                    android:id="@+id/nav_rogerinho"
+                    android:title="@string/rogerinho_do_ing" />
+                <item
+                    android:id="@+id/nav_boquetitos"
+                    android:title="@string/boquetitos" />
+                <item
+                    android:id="@+id/nav_outros"
+                    android:title="@string/outros"/>
+            </group>
+        </menu>
+    </item>
+    <item android:title="@string/sounds">
+        <menu>
+            <item
+                android:id="@+id/nav_daniel_sounds"
+                android:title="@string/daniel_furlan" />
+            <item
+                android:id="@+id/nav_vice_consul_sounds"
+                android:title="@string/vice_consul_de_honduras" />
+            <item
+                android:id="@+id/nav_rogerinho_sounds"
+                android:title="@string/rogerinho_do_ing" />
+            <item
+                android:id="@+id/nav_boquetitos_sounds"
+                android:title="@string/boquetitos" />
+            <item
+                android:id="@+id/nav_outros_sounds"
+                android:title="@string/outros" />
+        </menu>
+    </item>
+
+</menu>
